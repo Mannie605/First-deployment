@@ -1,0 +1,33 @@
+body {
+    background-color: rgba(33, 33, 33, 1) !important;
+    color: white !important;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+section {
+    border: 1px solid green;
+    box-shadow: 0 8px 4px green;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+.btn {
+    outline: none;
+    background-color: gold !important;
+    border: 1px solid gold !important;
+    padding: 5px 30px;
+    border-radius: 20px !important;
+    margin: 0 5px;
+}
+.btn:hover {
+    background-color: #fff;
+    color: gold;
+    box-shadow: 0 4px 4px white;
+}
+.btn-logout {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    padding: 5px 30px;
+    border-radius: 20px !important;
+}

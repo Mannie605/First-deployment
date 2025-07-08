@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('./Media/IMG_6561.JPG');
+    background-size: cover;
+}
+
+.login-page {
+    width: 400px;
+    height: 500px;
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-left: 570px;
+}
+
+.header {
+    transform: translateX(38px) !important;
+    margin-top: 50px !important;
+}
+.header2 {
+    transform: translateX(139px) !important; 
+
+}
+
+.login-card input {
+    transform: translateX(46px) !important;
+    width: 300px !important;
+    height: 30px !important;
+    margin-bottom: -50px !important;
+    margin-top: 20px !important;
+    border: 2px solid black !important;
+    background-color: white !important;
+    color: black !important;
+    border-radius: 5px !important;
+}
+
+.options input {
+    transform: translateX(9px) !important;
+    width: 40px !important;
+    height: 10px !important;
+    margin-top: 30px !important;
+    color: white;
+}
+
+.forgot {
+    margin-left: 77px !important;
+}
+
+.login-card button {
+    transform: translateX(120px) !important;
+    width: 150px !important;
+    height: 40px !important;
+    background-color: blue !important;
+    color: white !important;
+    margin-top: 30px !important;
+}
+
+.line-with-text {
+    margin-left: 3px !important;
+    margin-top: 30px !important;
+    display: flex;
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+}
+
+.line-with-text::before,
+.line-with-text::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+}
+
+.line-with-text::before {
+    margin-right: 10px;
+}
+
+.line-with-text::after {
+    margin-left: 10px;
+}
+
+.signup {
+    margin-top: 35px;
+    margin-left: 58px;
+}
+.icon-1 {
+    color: red;
+}
