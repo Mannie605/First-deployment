@@ -60,9 +60,9 @@ function App() {
       {/* <TodoApp /> */}
       {/* <Navbar2 /> */}
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/login" element={<SignIn />} />
         <Route path="/*" element={<NotFound />} />
-        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="settings" element={<Settings />} />
 

@@ -8,6 +8,7 @@ function Home() {
         <>
         <h1>Welcome to Home page</h1>
         <ul>
+            <li><Link to="/login">Login</Link></li>
              <li><Link to="/About">About</Link></li>
              <li><Link to="/Dashboard">Dashboard</Link></li>
              <li><Link to="/Project">Project</Link></li>
