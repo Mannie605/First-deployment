@@ -1,8 +1,6 @@
 import React from 'react'
 import GloLogo from '../Media/GloLogo.png'
-import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import { faEnvelope, faSignal, faArrowUp, faArrowDown, faTv, faBatteryHalf, faWifi, faBolt } from '@fortawesome/free-solid-svg-icons';
- 
+
 
 function Navbar () {
     return (
