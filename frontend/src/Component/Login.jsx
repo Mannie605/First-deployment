@@ -21,11 +21,12 @@ function SignIn() {
             navigate("/")
         } catch (error) {
             console.log(error);
-            if (error.response && error.response.status === 404) {
-                alert(" Login failed: This user does not exist.");
-            } else {
-            alert("something went wrong. please try again.");
-            }
+            alert(error)
+            // if (error.response && error.response.status === 404) {
+            //     alert(" Login failed: This user does not exist.");
+            // } else {
+            // alert("something went wrong. please try again.");
+            // }
         }
     };
     return (
