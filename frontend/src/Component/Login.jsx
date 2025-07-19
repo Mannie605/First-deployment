@@ -22,11 +22,11 @@ function SignIn() {
         } catch (error) {
             console.log(error);
             alert(error)
-            // if (error.response && error.response.status === 404) {
-            //     alert(" Login failed: This user does not exist.");
-            // } else {
-            // alert("something went wrong. please try again.");
-            // }
+            if (error.response && error.response.status === 404) {
+                alert(" Login failed: This user does not exist.");
+            } else {
+            alert("something went wrong. please try again.");
+            }
         }
     };
     return (
